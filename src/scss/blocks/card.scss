@@ -1,0 +1,14 @@
+.card {
+  padding: 28px 24px;
+  &--top {
+    background-color: white;
+  }
+
+  &--middle {
+    background-color: var(--secundary-color);
+  }
+
+  &--bottom {
+    background-color: #4abfbc;
+  }
+}

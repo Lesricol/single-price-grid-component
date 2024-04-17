@@ -1,1 +1,25 @@
+.title {
+  font-weight: 700;
+  font-size: 1.25rem;
+  letter-spacing: -0.25px;
+  margin: 0;
+}
 
+.title--green {
+  color: var(--secundary-color);
+  margin-bottom: 24px;
+}
+
+.title--white {
+  color: var(--text-light);
+  margin-bottom: 18px;
+}
+
+.subtitle {
+  margin: 0;
+}
+
+.subtitle--green {
+  color: var(--primary-color);
+  margin-bottom: 16px;
+}

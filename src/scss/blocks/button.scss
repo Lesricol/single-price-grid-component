@@ -1,0 +1,13 @@
+.button--green {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: var(--text-light);
+  padding: 15px 0;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px #00000011;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: -0.2px;
+}

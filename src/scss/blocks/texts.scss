@@ -1,1 +1,37 @@
+.text {
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 20px;
+  letter-spacing: -0.17px;
+  &--gray {
+    color: var(--text-gray);
+  }
 
+  &--light {
+    color: var(--text-light);
+    margin-bottom: 26px;
+  }
+  &--opacity {
+    color: var(--text-light);
+    opacity: 75%;
+  }
+}
+
+.price {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: -0.4px;
+  color: var(--text-light);
+  margin-bottom: 4px;
+}
+
+.price::after {
+  content: attr(data-fee);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  margin-left: 11px;
+  opacity: 50%;
+}
