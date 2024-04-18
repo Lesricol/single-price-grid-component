@@ -1,7 +1,15 @@
+@use '../mixins/responsive.scss' as *;
+
 html {
   scroll-behavior: smooth;
 }
 body {
   background-color: #e6eff5;
   font-family: 'Karla', sans-serif;
+  @include responsive(desktop) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
 }

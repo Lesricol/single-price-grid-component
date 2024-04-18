@@ -1,7 +1,13 @@
+@use '../mixins/responsive.scss' as *;
+
 .card {
   padding: 28px 24px;
   &--top {
     background-color: white;
+    @include responsive(desktop) {
+      grid-column: 1 / 3;
+      grid-row: 1 / 2;
+    }
   }
 
   &--middle {

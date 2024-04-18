@@ -3,6 +3,10 @@
   padding: 72px 32px 62px;
 
   @include responsive(desktop) {
-    width: 635px;
+    width: fit-content;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 317.5px );
+    grid-template-rows: 216px, 259px;
   }
 }
