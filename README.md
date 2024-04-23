@@ -39,7 +39,7 @@ Victor Rico (lesricol)
 
 ## Instalación
 
-Este proyecto no necesita de instalación. Simplemente abre la carpeta o haz doble click en el .html
+Este proyecto necesita instalación. npm install y npm run preview
 
 ## Licencia 📄
 
